@@ -1,0 +1,136 @@
+0 verbose cli [
+0 verbose cli   '/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/bin/node',
+0 verbose cli   '/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/bin/npm',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@7.10.0
+2 info using node@v16.0.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/var/www/projects/woopons/woopons/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 9ms
+17 timing npm:load:configload Completed in 10ms
+18 timing npm:load:setTitle Completed in 0ms
+19 timing npm:load:setupLog Completed in 2ms
+20 timing npm:load:cleanupLog Completed in 3ms
+21 timing npm:load:configScope Completed in 0ms
+22 timing npm:load:projectScope Completed in 0ms
+23 timing npm:load Completed in 17ms
+24 timing config:load:flatten Completed in 3ms
+25 timing arborist:ctor Completed in 1ms
+26 timing arborist:ctor Completed in 1ms
+27 timing idealTree:init Completed in 18ms
+28 timing idealTree:userRequests Completed in 0ms
+29 silly idealTree buildDeps
+30 silly fetch manifest @popperjs/core@^2.10.2
+31 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 242ms
+32 silly fetch manifest axios@^1.1.2
+33 http fetch GET 200 https://registry.npmjs.org/axios 63ms
+34 silly fetch manifest bootstrap@^5.2.1
+35 http fetch GET 200 https://registry.npmjs.org/bootstrap 92ms
+36 silly fetch manifest laravel-vite-plugin@^0.6.0
+37 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 914ms
+38 silly fetch manifest vite@^3.0.0
+39 http fetch GET 200 https://registry.npmjs.org/vite 930ms
+40 silly fetch manifest @types/node@>= 14
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 112ms
+42 silly fetch manifest less@*
+43 http fetch GET 200 https://registry.npmjs.org/less 75ms
+44 silly fetch manifest sass@^1.32.11
+45 http fetch GET 200 https://registry.npmjs.org/sass 50ms
+46 silly fetch manifest stylus@*
+47 http fetch GET 200 https://registry.npmjs.org/stylus 75ms
+48 silly fetch manifest sugarss@*
+49 http fetch GET 200 https://registry.npmjs.org/sugarss 875ms
+50 silly fetch manifest postcss@^8.1.14
+51 http fetch GET 200 https://registry.npmjs.org/postcss 86ms
+52 silly fetch manifest terser@^5.4.0
+53 http fetch GET 200 https://registry.npmjs.org/terser 47ms
+54 silly fetch manifest lodash@^4.17.19
+55 http fetch GET 200 https://registry.npmjs.org/lodash 50ms
+56 silly fetch manifest @amcharts/amcharts5@^5.2.31
+57 http fetch GET 200 https://registry.npmjs.org/@amcharts%2famcharts5 2175ms
+58 silly fetch manifest @stripe/react-stripe-js@^1.14.2
+59 http fetch GET 200 https://registry.npmjs.org/@stripe%2freact-stripe-js 707ms
+60 silly fetch manifest @stripe/stripe-js@^1.44.1
+61 http fetch GET 200 https://registry.npmjs.org/@stripe%2fstripe-js 734ms
+62 silly fetch manifest react@^18.2.0
+63 http fetch GET 200 https://registry.npmjs.org/react 96ms
+64 silly fetch manifest react-dom@^18.2.0
+65 http fetch GET 200 https://registry.npmjs.org/react-dom 113ms
+66 silly fetch manifest @testing-library/jest-dom@^5.16.5
+67 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 90ms
+68 silly fetch manifest @testing-library/react@^13.4.0
+69 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 92ms
+70 silly fetch manifest @testing-library/user-event@^14.4.3
+71 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 99ms
+72 silly fetch manifest @testing-library/dom@>=7.21.4
+73 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 130ms
+74 silly fetch manifest @vitejs/plugin-react@^2.2.0
+75 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 745ms
+76 silly fetch manifest @vitejs/plugin-react-refresh@^1.3.6
+77 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react-refresh 2167ms
+78 silly fetch manifest babel-loader@^9.1.0
+79 http fetch GET 200 https://registry.npmjs.org/babel-loader 65ms
+80 silly fetch manifest @babel/core@^7.12.0
+81 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 71ms
+82 silly fetch manifest webpack@>=5
+83 http fetch GET 200 https://registry.npmjs.org/webpack 81ms
+84 silly fetch manifest chart.js@^3.9.1
+85 http fetch GET 200 https://registry.npmjs.org/chart.js 921ms
+86 silly fetch manifest cross-env@^7.0.3
+87 http fetch GET 200 https://registry.npmjs.org/cross-env 175ms
+88 silly fetch manifest crypto@^1.0.1
+89 http fetch GET 200 https://registry.npmjs.org/crypto 56ms
+90 silly fetch manifest css-loader@^6.7.2
+91 http fetch GET 200 https://registry.npmjs.org/css-loader 50ms
+92 silly fetch manifest webpack@^5.0.0
+93 silly fetch manifest google-map-react@^2.2.0
+94 http fetch GET 200 https://registry.npmjs.org/google-map-react 901ms
+95 silly fetch manifest google-maps-react@^2.0.6
+96 http fetch GET 200 https://registry.npmjs.org/google-maps-react 904ms
+97 silly fetch manifest react@~0.14.8 || ^15.0.0 || ^16.0.0
+98 timing idealTree Completed in 14458ms
+99 timing command:install Completed in 14471ms
+100 verbose stack Error: unable to resolve dependency tree
+100 verbose stack     at Arborist.[failPeerConflict] (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1210:25)
+100 verbose stack     at Arborist.[loadPeerSet] (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1187:34)
+100 verbose stack     at async Arborist.[buildDepStep] (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:891:11)
+100 verbose stack     at async Arborist.buildIdealTree (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:217:7)
+100 verbose stack     at async Promise.all (index 1)
+100 verbose stack     at async Arborist.reify (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:134:5)
+100 verbose stack     at async Install.install (/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/lib/node_modules/npm/lib/install.js:137:5)
+101 verbose cwd /var/www/projects/woopons/woopons
+102 verbose Linux 3.10.0-1127.19.1.el7.x86_64
+103 verbose argv "/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/bin/node" "/var/www/projects/woopons/woopons/.nvm/versions/node/v16.0.0/bin/npm" "install"
+104 verbose node v16.0.0
+105 verbose npm  v7.10.0
+106 error code ERESOLVE
+107 error ERESOLVE unable to resolve dependency tree
+108 error
+109 error While resolving: [1mundefined[22m@[1mundefined[22m
+109 error Found: [1mreact[22m@[1m18.2.0[22m[2m[22m
+109 error [2mnode_modules/react[22m
+109 error   [1mreact[22m@"[1m^18.2.0[22m" from the root project
+109 error
+109 error Could not resolve dependency:
+109 error [35mpeer[39m [1mreact[22m@"[1m~0.14.8 || ^15.0.0 || ^16.0.0[22m" from [1mgoogle-maps-react[22m@[1m2.0.6[22m[2m[22m
+109 error [2mnode_modules/google-maps-react[22m
+109 error   [1mgoogle-maps-react[22m@"[1m^2.0.6[22m" from the root project
+109 error
+109 error Fix the upstream dependency conflict, or retry
+109 error this command with --force, or --legacy-peer-deps
+109 error to accept an incorrect (and potentially broken) dependency resolution.
+109 error
+109 error See /var/www/projects/woopons/woopons/.npm/eresolve-report.txt for a full report.
+110 verbose exit 1

@@ -1,0 +1,76 @@
+# npm resolution error report
+
+2022-11-21T05:50:10.718Z
+
+While resolving: undefined@undefined
+Found: react@18.2.0
+node_modules/react
+  react@"^18.2.0" from the root project
+
+Could not resolve dependency:
+peer react@"^16.2.0" from react-otp-input@2.4.0
+node_modules/react-otp-input
+  react-otp-input@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "react",
+    "version": "18.2.0",
+    "whileInstalling": {
+      "path": "/var/www/projects/woopons/woopons"
+    },
+    "location": "node_modules/react",
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "^18.2.0",
+        "from": {
+          "location": "/var/www/projects/woopons/woopons"
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "prod",
+    "name": "react",
+    "spec": "^18.2.0",
+    "from": {
+      "location": "/var/www/projects/woopons/woopons"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "react",
+    "spec": "^16.2.0",
+    "error": "INVALID",
+    "from": {
+      "name": "react-otp-input",
+      "version": "2.4.0",
+      "whileInstalling": {
+        "path": "/var/www/projects/woopons/woopons"
+      },
+      "location": "node_modules/react-otp-input",
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react-otp-input",
+          "spec": "*",
+          "from": {
+            "location": "/var/www/projects/woopons/woopons"
+          }
+        }
+      ]
+    }
+  },
+  "peerConflict": null,
+  "strictPeerDeps": false,
+  "force": false
+}

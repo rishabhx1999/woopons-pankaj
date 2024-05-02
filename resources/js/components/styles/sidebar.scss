@@ -1,0 +1,152 @@
+@import "./colors";
+
+.sidebar-main {
+    background: $primary;
+    height: 100vh;
+    padding: 40px 40px;
+    overflow-y: auto;
+    .route-links {
+	    margin-top: 40px;
+	    .links-list {
+		    list-style: none;
+		    padding: 0px;
+		    margin: 0;
+		    li{
+		    	margin-bottom: 10px;
+		    	.a-links {
+				    padding: 12px 10px;
+				    width: 100%;
+				    line-height: 100%;
+				    color: #fff;
+				    text-decoration: none;
+				    transition: 0.4s all ease-in-out;
+				    font-size: 22px;
+				    border-radius: 7px;
+				    align-items: center;
+				    display: inline-flex;
+				    @include responsive(big-desktop) {
+			          font-size: 18px;
+			        }
+				    &:hover {
+					    background: $secondary;
+					}
+				    svg {
+					    margin-right: 10px;
+					}
+				}
+				&.dropdown-link {
+				    padding: 12px 10px;
+				    display: inline-block;
+				    width: 100%;
+				    line-height: 100%;
+				    color: #fff;
+				    text-decoration: none;
+				    transition: 0.4s all ease-in-out;
+				    font-size: 22px;
+				    border-radius: 7px;
+				    position: relative;
+				    cursor:pointer;
+				    @include responsive(big-desktop) {
+			          font-size: 18px;
+			        }
+				    svg {
+					    margin-right: 10px;
+					}
+					&:after {
+					    content: "";
+					    background-image:url(../../assets/images/arrow-icon.png);
+					    position: absolute;
+					    top: 16px;
+					    right: 0;
+					    transition: 0.4s all ease-in-out;
+					    background-size: 100%;
+					    width: 11px;
+					    height: 18px;
+					    background-repeat: no-repeat;
+					}
+					.child-dropdown {
+					    list-style: none;
+					    margin-top: 10px;
+					    li {
+						    margin: 0px;
+						}
+					}
+					
+				}
+				.active{
+					background: $secondary;
+				}
+		    }
+		}
+	}
+	.top-logo {
+		img {
+		    max-height: 80px;
+		}
+	}
+	.profile-sidebar {
+		margin-top: 40px;
+		img {
+		    width: 100px;
+		    height: 100px;
+		    background: red;
+		    border-radius: 130px;
+		    object-fit: cover;
+		    margin-right: 15px;
+		    @include responsive(big-desktop) {
+	          width: 70px;
+		      height: 70px;
+	        }
+		}
+		.profile-title {
+			h4 {
+			    font-size: 22px;
+			    font-weight: 500;
+			    color: #fff;
+			    @include responsive(big-desktop) {
+		          font-size: 19px;
+		        }
+			}
+			p {
+			    color: #fff;
+			    font-size: 17px;
+			    margin-bottom: 0;
+			    @include responsive(big-desktop) {
+		          font-size: 15px;
+		        }
+			}
+		}
+	}
+	.logout-btn {
+		margin-top: 80px;
+		a {
+		    padding: 12px 10px;
+		    display: inline-block;
+		    width: 100%;
+		    line-height: 100%;
+		    text-decoration: none;
+		    transition: 0.4s all ease-in-out;
+		    font-size: 22px;
+		    border-radius: 7px;
+		    background: #fff;
+		    text-align: center;
+		    color: $primary;
+    		font-weight: 500;
+    		cursor: pointer;
+    		svg {
+			    margin-right: 10px;
+			    font-size: 19px;
+			    position: relative;
+			    top: -1px;
+			}
+    		@include responsive(big-desktop) {
+	          font-size: 18px;
+	        }
+		}
+	}
+	.dashboard-profile-view {
+		svg {
+		    color: #009FE3;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+footer{
+    position: relative;
+    padding: 10px 0px;
+    @include responsive(tab-port) {
+        text-align:center;
+    }
+    .links{
+        p {
+            margin: 0px;
+        }
+    }
+    .linksouter a {
+        padding: 0px 10px;
+        color: #be1e2e;
+    }
+
+}

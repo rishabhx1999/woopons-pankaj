@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.business-table {
+	.react-bootstrap-table{
+		table{
+			th{
+				&:first-child{
+					width:85px;
+				}
+			}
+			td{
+				&:first-child{
+					width:85px;
+				}
+			}
+			th{
+				&:last-child{
+					width:100px;
+				}
+			}
+			td{
+				&:last-child{
+					width:100px;
+				}
+			}
+			th{
+				&:nth-child(5){
+					width:130px;
+				}
+			}
+			td{
+				&:nth-child(5){
+					width:130px;
+				}
+			}
+			th{
+				&:nth-child(3){
+					word-break:break-all;
+				}
+			}
+			td{
+				&:nth-child(3){
+					word-break:break-all;
+				}
+			}
+		}
+	}
+}

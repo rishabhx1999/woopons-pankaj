@@ -1,0 +1,38 @@
+@import "../../styles/mediaQueries";
+@import "../../styles/colors";
+
+.details-main-sec{
+	padding-top:60px;
+	.detial-outer {
+		h2 {
+		    font-size: 40px;
+		    color: #000;
+		    font-weight: 400;
+		    position: relative;
+		    margin-bottom: 20px;
+		}
+		.detial-outer-box {
+		    background: #F5F5F7;
+		    width: fit-content;
+		    padding: 20px 70px 20px 20px;
+		    border-radius: 6px;
+		    p {
+				    color: #000;
+				    opacity: 0.5;
+				}
+		}
+		.detial-outer-images {
+			img {
+			    max-width: 170px;
+			    margin: 0px 10px;
+			    @include responsive(phone) {
+			        max-width: 130px;
+			    }
+			}
+		}
+	}
+	.hand-img {
+	    display: flex;
+	    margin-left: auto;
+	}
+}

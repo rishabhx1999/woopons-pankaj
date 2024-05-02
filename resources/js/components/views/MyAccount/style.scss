@@ -1,0 +1,49 @@
+@import "../../styles/mediaQueries";
+@import "../../styles/colors";
+
+.myaccount-main-sec{
+	.btn-grp {
+	    justify-content: space-around;
+	    display: flex;
+	    .orange-btn-border {
+		    background: transparent;
+		    color: #be1d2d;
+		    border: 1px solid #be1d2d;
+		}
+	}
+	.starter-plan-outer {
+	    background: #F5F5F7;
+	    padding: 20px 70px 20px 20px;
+	    border-radius: 6px;
+	    @include responsive(phone) {
+            padding: 20px 20px 20px 20px;
+        }
+	    h3 {
+		    font-size: 26px;
+		    margin-bottom: 20px;
+		}
+		.active-badge {
+		    font-size: 13px;
+		    background: #54B435;
+		}
+		.btn-grp {
+			.orange-btn {
+			    color: #fff;
+			}
+			&.btn-single{
+				    justify-content: start;
+			}
+		}
+	}
+	.starter-plan-textarea {
+	    margin-top: 40px;
+	    .inner-textarea {
+		    padding: 10px;
+		    background: #f5f5f7;
+		    border-radius: 7px;
+		    textarea {
+			    background: #fff;
+			}
+		}
+	}
+}

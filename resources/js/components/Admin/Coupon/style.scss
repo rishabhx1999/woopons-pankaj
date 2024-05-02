@@ -1,0 +1,37 @@
+@import "../../styles/mediaQueries";
+
+.coupon-detail-sec{
+	.left-img-coupon {
+		img {
+		    width: 250px;
+		    height: 250px;
+		    object-fit: cover;
+		    border-radius: 270px;
+		    margin: 0 auto;
+    		display: block;
+		}
+	}
+	.right-info-coupon{
+		.coupens-outer {
+		    display: flex;
+		    h4 {
+			    font-weight: 400;
+			    font-size: 22px;
+			    line-height: 30px;
+			    width: 220px;
+			    opacity: 0.7;
+			}
+		}
+	}
+	.about-deal {
+		h4 {
+		    font-weight: 500;
+		    color: rgb(0 0 0 / 63%);
+		}
+	}
+	
+}
+.bold-business {
+	font-weight: 400;
+    color: #000;
+}
