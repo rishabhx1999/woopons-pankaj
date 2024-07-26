@@ -1,15 +1,14 @@
-export const  getBackgroundColor=()=> {
+export const getBackgroundColor = () => {
     // var letters = '0123456789ABCDEF';
     // var color = '#';
     // for (var i = 0; i < 6; i++) {
     //   color += letters[Math.floor(Math.random() * 16)];
     // }
-    let color = '#BE1D2D';
+    let color = "#BE1D2D";
     return color;
-  }
+};
 
-
-  const getInitials = (name) => {
+const getInitials = (name) => {
     let initials;
     const nameSplit = name.split(" ");
     const nameLength = nameSplit.length;
@@ -24,29 +23,27 @@ export const  getBackgroundColor=()=> {
     return initials.toUpperCase();
 };
 
-
-
 export const createImageFromInitials = (size, name, color) => {
     if (name == null) return;
-    name=getInitials(name)
+    name = getInitials(name);
 
-    const canvas=document.createElement('canvas')
-    const context=canvas.getContext('2d')
-    canvas.width=canvas.height=size
+    const canvas = document.createElement("canvas");
+    const context = canvas.getContext("2d");
+    canvas.width = canvas.height = size;
 
-    context.fillStyle="#ffffff"
-    context.fillRect(0,0,size,size)
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, size, size);
 
     // context.fillStyle=`${color}50`
-    context.fillStyle=color
-    context.fillRect(0,0,size,size)
+    context.fillStyle = color;
+    context.fillRect(0, 0, size, size);
 
     // context.fillStyle=color;
-    context.fillStyle="#fff";
-    context.textBaseline='middle'
-    context.textAlign='center'
-    context.font =`${size/2}px Roboto`
-    context.fillText(name,(size/2),(size/2))
+    context.fillStyle = "#fff";
+    context.textBaseline = "middle";
+    context.textAlign = "center";
+    context.font = `${size / 2}px Roboto`;
+    context.fillText(name, size / 2, size / 2);
 
-    return canvas.toDataURL()
+    return canvas.toDataURL();
 };

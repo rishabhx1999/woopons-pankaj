@@ -98,6 +98,7 @@ const MainView = (props) => {
     useEffect(() => {
         // console.log(customerPlans)
         setPlans(customerPlans);
+        console.log("js components Home MainView.js" + plans.length);
     }, [customerPlans]);
 
     useEffect(() => {
